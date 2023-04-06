@@ -7,9 +7,23 @@
         "description":"A classic cocktail to be served in a copper mug",
         "ingredients":{"lime juice":".75 oz","vodka":"2 oz","ginger beer":"~5 oz"},
         "directions":["Fill copper mug with ice",
-                    "Add lime juice and vodva",
+                    "Add lime juice and vodka",
                     "Top with ginger beer and lightly stir"],
         "notes":"Can garnish with a lime wedge",
+        "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    }
+
+    {
+        "id":2,
+        "name":"Bee's Knees",
+        "spirit":"Gin",
+        "glassware":"Coupe",
+        "description":"A clean and simple gin cocktail",
+        "ingredients":{"lemon juice":".75 oz","gin":"2 oz","honey syrup":".5 oz"},
+        "directions":["Fill shaker with all ingregients",
+                    "Add ice and shake ~15 seconds",
+                    "Double strain into chilled coupe"],
+        "notes":"Can garnish with a lemon rind",
         "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
     }
 ]
