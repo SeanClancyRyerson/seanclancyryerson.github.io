@@ -1,0 +1,15 @@
+
+.drink-container {
+    background-color: aquamarine;
+}
+
+.drink-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.image-container {
+    width: 200px;
+    height: auto;
+}
