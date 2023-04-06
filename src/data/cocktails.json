@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "name":"Moscow Mule",
+        "spirit":"Vodka",
+        "glassware":"Copper Mug",
+        "description":"A classic cocktail to be served in a copper mug",
+        "ingredients":{"lime juice":".75 oz","vodka":"2 oz","ginger beer":"~5 oz"},
+        "directions":["Fill copper mug with ice",
+                    "Add lime juice and vodva",
+                    "Top with ginger beer and lightly stir"],
+        "notes":"Can garnish with a lime wedge",
+        "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    }
+]
