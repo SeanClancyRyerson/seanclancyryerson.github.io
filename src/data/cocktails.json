@@ -5,12 +5,14 @@
         "spirit":"Vodka",
         "glassware":"Copper Mug",
         "description":"A classic cocktail to be served in a copper mug",
-        "ingredients":{"lime juice":".75 oz","vodka":"2 oz","ginger beer":"~5 oz"},
+        "ingredients":["2 ounces vodka",
+                    "3/4 ounces lime juice",
+                    "~5 ounces ginger beer"],
         "directions":["Fill copper mug with ice",
                     "Add lime juice and vodka",
                     "Top with ginger beer and lightly stir"],
         "notes":"Can garnish with a lime wedge",
-        "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+        "image":"https://bakeitwithlove.com/wp-content/uploads/2022/07/Moscow-Mule-sq.jpg"
     },
 
     {
@@ -19,11 +21,13 @@
         "spirit":"Gin",
         "glassware":"Coupe",
         "description":"A clean and simple gin cocktail",
-        "ingredients":{"lemon juice":".75 oz","gin":"2 oz","honey syrup":".5 oz"},
+        "ingredients":["2 ounces gin",
+                    "3/4 ounces lemon juice",
+                    "1/2 ounces honey syrup"],
         "directions":["Fill shaker with all ingregients",
                     "Add ice and shake ~15 seconds",
                     "Double strain into chilled coupe"],
         "notes":"Can garnish with a lemon rind",
-        "image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+        "image":"https://kitchenswagger.com/wp-content/uploads/2019/08/bees-knees-cocktail1.jpg"
     }
 ]
