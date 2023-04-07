@@ -3,10 +3,7 @@ import "./Cocktail.css";
 import drinks from "../../data/cocktails.json";
 
 const Cocktail = () => {
-  const [cocktailList, setCocktailList] = useState(drinks);
-
-  console.log(cocktailList);
-
+  //
   return (
     <div className="drink-section">
       {drinks.map((drink) => {
@@ -14,25 +11,31 @@ const Cocktail = () => {
           <div key={drink.id} className="drink-container">
             <div>
               <img
-                className="image-container"
+                className="drink-image-container"
                 src={drink.image}
                 alt={drink.name}
               />
             </div>
-            <div>{drink.name}</div>
-            <div>{drink.description}</div>
-            <div>{drink.glassware}</div>
-            <ul>
-              {drink.ingredients.map((ingredient) => {
-                return <li>{ingredient}</li>;
-              })}
-            </ul>
-            <ol>
-              {drink.directions.map((step) => {
-                return <li>{step}</li>;
-              })}
-            </ol>
-            <div>{drink.notes}</div>
+            <div className="drink-information-section">
+              <div className="drink-header">
+                <div>{drink.name}</div>
+                <div>{drink.glassware}</div>
+              </div>
+              <div>{drink.description}</div>
+              <div className="drink-ingredients-steps">
+                <ul>
+                  {drink.ingredients.map((ingredient) => {
+                    return <li key={ingredient}>{ingredient}</li>;
+                  })}
+                </ul>
+                <ol>
+                  {drink.directions.map((step) => {
+                    return <li key={step}>{step}</li>;
+                  })}
+                </ol>
+              </div>
+              <div>{drink.notes}</div>
+            </div>
           </div>
         );
       })}

@@ -1,0 +1,19 @@
+
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.header-title {
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
+.logo-icon {
+    height: 3rem;
+    width: auto;
+}
+

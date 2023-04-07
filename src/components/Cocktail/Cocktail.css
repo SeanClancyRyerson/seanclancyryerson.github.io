@@ -1,15 +1,39 @@
-
-.drink-container {
-    background-color: aquamarine;
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .drink-section {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    background-color: #eceff2;
+    gap: 10px;
 }
 
-.image-container {
-    width: 200px;
-    height: auto;
+.drink-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 850px;
+}
+
+.drink-information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.drink-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drink-ingredients-steps {
+    display: flex;
+}
+
+.drink-image-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
 }
