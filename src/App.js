@@ -15,6 +15,10 @@ function App() {
     setSearchValue(event.target.value);
   };
 
+  const filteredDrinks = drinks.filter((drink) => {
+    return drink.name.toLowerCase().includes(searchValue.toLowerCase());
+  });
+
   return (
     <div className="App">
       <div className="header-section">
@@ -36,7 +40,7 @@ function App() {
         </div>
         <img className="logo-icon" src="./logo512.png" />
       </div>
-      <Cocktail drinks={drinks} />
+      <Cocktail drinks={filteredDrinks} />
     </div>
   );
 }
