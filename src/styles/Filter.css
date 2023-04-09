@@ -1,31 +1,26 @@
 
+.filter-king {
+    display: flex;
+    justify-content: center;
+}
+
 .filter-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 4rem;
+    width: 1000px;
 }
-
-.input-container {
-    display: flex;
-    width: 100px;
-}
-
-.dropdown {
-    height: 2rem;
-    width: 8rem;
-    background-color: #e3e4e4;
-    border: 0;
-    border-radius: 3px;
-}
-
-
-/* <div class="checkbox-wrapper"><input type="checkbox" id="cbtest-19" /><label for="cbtest-19" class="check-box"></div><style> */
 
 .checkbox-wrapper {
     box-sizing: border-box;
     --background-color: #fff;
     --checkbox-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 5px;
 }
 
 @-moz-keyframes dothabottomcheck-19 {
