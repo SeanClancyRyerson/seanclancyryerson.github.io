@@ -9,8 +9,9 @@ const Search = () => {
   };
 
   return (
-    <div>
+    <div className="search-container">
       <input type="text" value={searchValue} onChange={handleInputChange} />
+      <button></button>
     </div>
   );
 };

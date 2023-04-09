@@ -12,7 +12,7 @@
                     "Add lime juice and vodka",
                     "Top with ginger beer and lightly stir"],
         "notes":"Can garnish with a lime wedge",
-        "image":"https://bakeitwithlove.com/wp-content/uploads/2022/07/Moscow-Mule-sq.jpg"
+        "image":"https://www.foodandwine.com/thmb/DX85ldkm3kh_vUBnXH2mNR78gxA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/moscow-mule-FT-RECIPE0521-6bb69ade441546c1b1210b4e55dbcb23.jpg"
     },
 
     {
@@ -28,7 +28,7 @@
                     "Add ice and shake ~15 seconds",
                     "Double strain into chilled coupe"],
         "notes":"Can garnish with a lemon rind",
-        "image":"https://tasty.drinks.place/wp-content/uploads/2021/08/bees-knees-1-735x711.jpg"
+        "image":"https://www.saveur.com/uploads/2019/02/08/MBQXQ55452DUYNF3ND5C5FG7KA.jpg?auto=webp"
     },
 
     {
@@ -51,7 +51,7 @@
     },
 
     {
-        "id":3,
+        "id":4,
         "name":"Pegu Club",
         "spirit":"Gin",
         "glassware":"Coupe",
@@ -66,5 +66,22 @@
                     "Double strain into chilled coupe"],
         "notes":"The name Pegu Club comes from a club of the same name just outside Rangoon in what is now called Myanmar",
         "image":"https://www.winemag.com/wp-content/uploads/2022/03/03_22_Pegu_Tyler_Zielinski_1920x1280.jpg"
+    },
+
+    {
+        "id":5,
+        "name":"Margarita",
+        "spirit":"Tequilla",
+        "glassware":"Coupe/Rocks Glass",
+        "description":"How much do I need to say about a Margarita?",
+        "ingredients":["2 ounces tequilla",
+                    "1 ounce orange curaçao",
+                    "1 ounce lime juice"],
+        "directions":["Optional: Add a salted rim to your glass",
+                    "Fill shaker with all ingregients",
+                    "Add ice and shake ~15 seconds",
+                    "Dirty dump into glass"],
+        "notes":"Some say the cocktail was invented in 1948 in Acapulco, Mexico, when a Dallas socialite combined blanco tequila with Cointreau and lime juice for her guests",
+        "image":"https://www.tasteofhome.com/wp-content/uploads/2022/09/GettyImages-957891892.jpg"
     }
 ]

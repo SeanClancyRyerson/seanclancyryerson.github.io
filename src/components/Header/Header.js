@@ -5,7 +5,10 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header-section">
-      <div className="header-title">cocktails.js</div>
+      <div className="header-title">
+        <h2>cocktails.js</h2>
+        <h2>cocktails.js</h2>
+      </div>
       <div>
         <Search />
       </div>
