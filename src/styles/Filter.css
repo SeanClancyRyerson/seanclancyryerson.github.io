@@ -6,6 +6,11 @@
     height: 4rem;
 }
 
+.input-container {
+    display: flex;
+    width: 100px;
+}
+
 .dropdown {
     height: 2rem;
     width: 8rem;

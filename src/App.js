@@ -11,20 +11,62 @@ import drinks from "./data/cocktails.json";
 
 function App() {
   const [searchValue, setSearchValue] = useState("");
-  const [spiritValue, setSpiritValue] = useState("");
+  const [spiritBrandy, setSpiritBrandy] = useState(true);
+  const [spiritGin, setSpiritGin] = useState(true);
+  const [spiritMezcal, setSpiritMezcal] = useState(true);
+  const [spiritRum, setSpiritRum] = useState(true);
+  const [spiritTequila, setSpiritTequila] = useState(true);
+  const [spiritVodka, setSpiritVodka] = useState(true);
+  const [spiritWhiskey, setSpiritWhiskey] = useState(true);
+  const [spiritWine, setSpiritWine] = useState(true);
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
   };
 
-  const changeSpirit = (event) => {
-    setSpiritValue(event.target.value);
+  const toggleBrandy = (e) => {
+    setSpiritBrandy(!spiritBrandy);
+  };
+
+  const toggleGin = (e) => {
+    setSpiritGin(!spiritGin);
+  };
+
+  const toggleMezcal = (e) => {
+    setSpiritMezcal(!spiritMezcal);
+  };
+
+  const toggleRum = (e) => {
+    setSpiritRum(!spiritRum);
+  };
+
+  const toggleTequila = (e) => {
+    setSpiritTequila(!spiritTequila);
+  };
+
+  const toggleVodka = (e) => {
+    setSpiritVodka(!spiritVodka);
+  };
+
+  const toggleWhiskey = (e) => {
+    setSpiritWhiskey(!spiritWhiskey);
+  };
+
+  const toggleWine = (e) => {
+    setSpiritWine(!spiritWine);
   };
 
   const filteredDrinks = drinks.filter((drink) => {
     return (
       drink.name.toLowerCase().includes(searchValue.toLowerCase()) &&
-      drink.spirit.includes(spiritValue)
+      ((spiritBrandy && drink.spirit == "brandy") ||
+        (spiritGin && drink.spirit == "gin") ||
+        (spiritMezcal && drink.spirit == "mezcal") ||
+        (spiritRum && drink.spirit == "rum") ||
+        (spiritTequila && drink.spirit == "tequila") ||
+        (spiritVodka && drink.spirit == "vodka") ||
+        (spiritWhiskey && drink.spirit == "whiskey") ||
+        (spiritWine && drink.spirit == "wine"))
     );
   });
 
@@ -51,17 +93,76 @@ function App() {
       </div>
       <div className="filter-section">
         <div className="input-container">
-          <select id="spirit" onChange={changeSpirit} className="dropdown">
-            <option value="">Any Spirit</option>
-            <option value="brandy">Brandy</option>
-            <option value="gin">Gin</option>
-            <option value="mezcal">Mezcal</option>
-            <option value="rum">Rum</option>
-            <option value="tequila">Tequila</option>
-            <option value="vodka">Vodka</option>
-            <option value="whiskey">Whiskey</option>
-            <option value="wine">Wine</option>
-          </select>
+          <input
+            id="brandy"
+            type="checkbox"
+            checked={spiritBrandy}
+            onChange={toggleBrandy}
+          ></input>
+          <label htmlFor="brandy">Brandy</label>
+        </div>
+        <div className="input-container">
+          <input
+            id="gin"
+            type="checkbox"
+            checked={spiritGin}
+            onChange={toggleGin}
+          ></input>
+          <label htmlFor="gin">Gin</label>
+        </div>
+        <div className="input-container">
+          <input
+            id="mezcal"
+            type="checkbox"
+            checked={spiritMezcal}
+            onChange={toggleMezcal}
+          ></input>
+          <label htmlFor="mezcal">Mezcal</label>
+        </div>
+        <div className="input-container">
+          <input
+            id="rum"
+            type="checkbox"
+            checked={spiritRum}
+            onChange={toggleRum}
+          ></input>
+          <label htmlFor="rum">Rum</label>
+        </div>
+        <div className="input-container">
+          <input
+            id="tequila"
+            type="checkbox"
+            checked={spiritTequila}
+            onChange={toggleTequila}
+          ></input>
+          <label htmlFor="tequila">Tequila</label>
+        </div>
+        <div className="input-container">
+          <input
+            id="vodka"
+            type="checkbox"
+            checked={spiritVodka}
+            onChange={toggleVodka}
+          ></input>
+          <label htmlFor="vodka">Vodka</label>
+        </div>
+        <div className="input-container">
+          <input
+            id="whiskey"
+            type="checkbox"
+            checked={spiritWhiskey}
+            onChange={toggleWhiskey}
+          ></input>
+          <label htmlFor="whiskey">Whiskey</label>
+        </div>
+        <div className="input-container">
+          <input
+            id="wine"
+            type="checkbox"
+            checked={spiritWine}
+            onChange={toggleWine}
+          ></input>
+          <label htmlFor="wine">Wine</label>
         </div>
       </div>
       <Cocktail drinks={filteredDrinks} />
