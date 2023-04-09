@@ -4,19 +4,28 @@ import { mdiMagnify } from "@mdi/js";
 import "./App.css";
 import "./styles/Header.css";
 import "./styles/Search.css";
+import "./styles/Filter.css";
 import Cocktail from "./components/cocktail/Cocktail";
 
 import drinks from "./data/cocktails.json";
 
 function App() {
   const [searchValue, setSearchValue] = useState("");
+  const [spiritValue, setSpiritValue] = useState("");
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
   };
 
+  const changeSpirit = (event) => {
+    setSpiritValue(event.target.value);
+  };
+
   const filteredDrinks = drinks.filter((drink) => {
-    return drink.name.toLowerCase().includes(searchValue.toLowerCase());
+    return (
+      drink.name.toLowerCase().includes(searchValue.toLowerCase()) &&
+      drink.spirit.includes(spiritValue)
+    );
   });
 
   return (
@@ -39,6 +48,22 @@ function App() {
           </div>
         </div>
         <img className="logo-icon" src="./logo512.png" />
+      </div>
+      <div className="filter-section">
+        Filters
+        <div className="input-container">
+          <select id="spirit" onChange={changeSpirit}>
+            <option value="">Spirit</option>
+            <option value="brandy">Brandy</option>
+            <option value="gin">Gin</option>
+            <option value="mezcal">Mezcal</option>
+            <option value="rum">Rum</option>
+            <option value="tequila">Tequila</option>
+            <option value="vodka">Vodka</option>
+            <option value="whiskey">Whiskey</option>
+            <option value="wine">Wine</option>
+          </select>
+        </div>
       </div>
       <Cocktail drinks={filteredDrinks} />
     </div>

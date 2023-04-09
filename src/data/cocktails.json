@@ -2,7 +2,7 @@
     {
         "id":1,
         "name":"Moscow Mule",
-        "spirit":"Vodka",
+        "spirit":"vodka",
         "glassware":"Copper Mug",
         "description":"A classic cocktail to be served in a copper mug",
         "ingredients":["2 ounces vodka",
@@ -18,7 +18,7 @@
     {
         "id":2,
         "name":"Bee's Knees",
-        "spirit":"Gin",
+        "spirit":"gin",
         "glassware":"Coupe",
         "description":"A clean and simple gin cocktail",
         "ingredients":["2 ounces gin",
@@ -34,7 +34,7 @@
     {
         "id":3,
         "name":"Old Fashioned",
-        "spirit":"Bourbon",
+        "spirit":"whiskey",
         "glassware":"Rocks Glass",
         "description":"The godfather of cocktails",
         "ingredients":["2 ounces bourbon",
@@ -53,7 +53,7 @@
     {
         "id":4,
         "name":"Pegu Club",
-        "spirit":"Gin",
+        "spirit":"gin",
         "glassware":"Coupe",
         "description":"A sour style gin cocktail with some bitters to spice it up.",
         "ingredients":["2 ounces gin",
@@ -71,7 +71,7 @@
     {
         "id":5,
         "name":"Margarita",
-        "spirit":"Tequilla",
+        "spirit":"tequila",
         "glassware":"Coupe/Rocks Glass",
         "description":"How much do I need to say about a Margarita?",
         "ingredients":["2 ounces tequilla",
