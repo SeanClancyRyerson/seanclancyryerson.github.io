@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "./Cocktail.css";
-import drinks from "../../data/cocktails.json";
 
-const Cocktail = () => {
+const Cocktail = (props) => {
   //
   return (
     <div className="drink-section">
-      {drinks.map((drink) => {
+      {props.drinks.map((drink) => {
         return (
           <div key={drink.id} className="drink-container">
             <div className="drink-image-container">
