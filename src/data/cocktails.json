@@ -29,5 +29,42 @@
                     "Double strain into chilled coupe"],
         "notes":"Can garnish with a lemon rind",
         "image":"https://tasty.drinks.place/wp-content/uploads/2021/08/bees-knees-1-735x711.jpg"
+    },
+
+    {
+        "id":3,
+        "name":"Old Fashioned",
+        "spirit":"Bourbon",
+        "glassware":"Rocks Glass",
+        "description":"The godfather of cocktails",
+        "ingredients":["2 ounces bourbon",
+                    "1/4 ounce rich Demerara syrup",
+                    "4 dashes Angostura bitters",
+                    "Small orange slice"],
+        "directions":["Muddle orange slice in a mixing glass",
+                    "Add bourbon, bitters, and syrup",
+                    "Stir with ice",
+                    "Express orange peel oil, wipe rim",
+                    "Garnish with orange peel and cherry"],
+        "notes":"You can try different kinds of bitters",
+        "image":"https://www.simplyrecipes.com/thmb/sc991fcMgIp8obXybNGH0yUBIVA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__01__Old-Fashioned-Cocktail-LEAD-5-473df565d9ca449f8b8f872cd2603f43.jpg"
+    },
+
+    {
+        "id":3,
+        "name":"Pegu Club",
+        "spirit":"Gin",
+        "glassware":"Coupe",
+        "description":"A sour style gin cocktail with some bitters to spice it up.",
+        "ingredients":["2 ounces gin",
+                    "3/4 ounces orange curaçao",
+                    "1/2 ounce lime juice",
+                    "1 dashes Angostura bitters",
+                    "1 dashes orange bitters"],
+        "directions":["Fill shaker with all ingregients",
+                    "Add ice and shake ~15 seconds",
+                    "Double strain into chilled coupe"],
+        "notes":"The name Pegu Club comes from a club of the same name just outside Rangoon in what is now called Myanmar",
+        "image":"https://www.winemag.com/wp-content/uploads/2022/03/03_22_Pegu_Tyler_Zielinski_1920x1280.jpg"
     }
 ]

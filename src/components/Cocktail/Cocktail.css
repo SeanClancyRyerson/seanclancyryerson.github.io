@@ -16,7 +16,7 @@
 
 .drink-container {
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
     width: 850px;
     padding-top: 25px;
 }
@@ -24,6 +24,7 @@
 .drink-information-section {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     justify-content: space-around;
     color: #656565;
     border-bottom: solid #dfe1e1;
@@ -37,7 +38,9 @@
 
 .drink-name {
     color: #313131;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .drink-ingredients-steps {
@@ -47,7 +50,7 @@
 .drink-image-container {
     width: 225px;
     height: 175px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .drink-notes, .drink-image-container {
