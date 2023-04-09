@@ -1,13 +1,41 @@
-import React from "react";
+import React, { useState, Component } from "react";
+import Icon from "@mdi/react";
+import { mdiMagnify } from "@mdi/js";
 import "./App.css";
-import Header from "./components/Header/Header";
+import "./styles/Header.css";
+import "./styles/Search.css";
 import Cocktail from "./components/cocktail/Cocktail";
+
 import drinks from "./data/cocktails.json";
 
 function App() {
+  const [searchValue, setSearchValue] = useState("");
+
+  const handleInputChange = (event) => {
+    setSearchValue(event.target.value);
+  };
+
   return (
     <div className="App">
-      <Header />
+      <div className="header-section">
+        <div className="header-title">
+          <h2>cocktails.js</h2>
+          <h2>cocktails.js</h2>
+        </div>
+        <div>
+          <div className="search-container">
+            <input
+              type="text"
+              value={searchValue}
+              onChange={handleInputChange}
+            />
+            <button>
+              <Icon path={mdiMagnify} size={0.7} />
+            </button>
+          </div>
+        </div>
+        <img className="logo-icon" src="./logo512.png" />
+      </div>
       <Cocktail drinks={drinks} />
     </div>
   );
