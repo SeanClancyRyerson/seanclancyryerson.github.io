@@ -50,10 +50,9 @@ function App() {
         <img className="logo-icon" src="./logo512.png" />
       </div>
       <div className="filter-section">
-        Filters
         <div className="input-container">
-          <select id="spirit" onChange={changeSpirit}>
-            <option value="">Spirit</option>
+          <select id="spirit" onChange={changeSpirit} className="dropdown">
+            <option value="">Any Spirit</option>
             <option value="brandy">Brandy</option>
             <option value="gin">Gin</option>
             <option value="mezcal">Mezcal</option>

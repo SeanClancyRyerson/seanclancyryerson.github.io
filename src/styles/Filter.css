@@ -1,4 +1,19 @@
 
 .filter-section {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.dropdown {
+    height: 2rem;
+    width: 8rem;
+    background-color: #e3e4e4;
+    border: 0;
+    border-radius: 3px;
+}
+
+.dropdown:active {
+    border-color: #fb8332;
 }
