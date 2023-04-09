@@ -9,12 +9,8 @@ const Cocktail = () => {
       {drinks.map((drink) => {
         return (
           <div key={drink.id} className="drink-container">
-            <div>
-              <img
-                className="drink-image-container"
-                src={drink.image}
-                alt={drink.name}
-              />
+            <div className="drink-image-container">
+              <img className="drink-image" src={drink.image} alt={drink.name} />
             </div>
             <div className="drink-information-section">
               <div className="drink-header">
