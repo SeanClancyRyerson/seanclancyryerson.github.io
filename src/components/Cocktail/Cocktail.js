@@ -18,7 +18,7 @@ const Cocktail = () => {
             </div>
             <div className="drink-information-section">
               <div className="drink-header">
-                <div>{drink.name}</div>
+                <div className="drink-name">{drink.name}</div>
                 <div>{drink.glassware}</div>
               </div>
               <div>{drink.description}</div>
@@ -34,7 +34,7 @@ const Cocktail = () => {
                   })}
                 </ol>
               </div>
-              <div>{drink.notes}</div>
+              <div className="drink-notes">{drink.notes}</div>
             </div>
           </div>
         );

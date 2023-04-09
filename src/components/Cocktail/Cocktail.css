@@ -12,20 +12,20 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--background-color);
-    gap: 10px;
 }
 
 .drink-container {
     display: flex;
     justify-content: space-around;
-    border-radius: 10px;
     width: 850px;
+    padding-top: 25px;
 }
 
 .drink-information-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color: #656565;
     border-bottom: solid #dfe1e1;
     border-bottom-width: 2px;
 }
@@ -35,23 +35,22 @@
     justify-content: space-between;
 }
 
+.drink-name {
+    color: #313131;
+    font-weight: bold;
+}
+
 .drink-ingredients-steps {
     display: flex;
 }
 
 .drink-image-container {
-    width: 300px;
-    height: 300px;
+    width: 225px;
+    height: 175px;
     border-radius: 10px;
 }
 
-hr {
-    width: 80%;
-    height: 10px;
-    border: 0 none;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 80px;
-    margin-bottom: 90px;
-    background-color: #555;
+.drink-notes, .drink-image-container {
+    margin-bottom: 25px;
 }
+
