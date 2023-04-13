@@ -18,7 +18,7 @@ function App() {
   const [spiritTequila, setSpiritTequila] = useState(true);
   const [spiritVodka, setSpiritVodka] = useState(true);
   const [spiritWhiskey, setSpiritWhiskey] = useState(true);
-  const [spiritWine, setSpiritWine] = useState(true);
+  const [spiritOther, setSpiritOther] = useState(true);
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
@@ -52,8 +52,8 @@ function App() {
     setSpiritWhiskey(!spiritWhiskey);
   };
 
-  const toggleWine = (e) => {
-    setSpiritWine(!spiritWine);
+  const toggleOther = (e) => {
+    setSpiritOther(!spiritOther);
   };
 
   const filteredDrinks = drinks.filter((drink) => {
@@ -66,7 +66,7 @@ function App() {
         (spiritTequila && drink.spirit == "tequila") ||
         (spiritVodka && drink.spirit == "vodka") ||
         (spiritWhiskey && drink.spirit == "whiskey") ||
-        (spiritWine && drink.spirit == "wine"))
+        (spiritOther && drink.spirit == "other"))
     );
   });
 
@@ -165,13 +165,13 @@ function App() {
           </div>
           <div className="checkbox-wrapper">
             <input
-              id="wine"
+              id="other"
               type="checkbox"
-              checked={spiritWine}
-              onChange={toggleWine}
+              checked={spiritOther}
+              onChange={toggleOther}
             ></input>
-            <label htmlFor="wine" className="check-box"></label>
-            <span>Wine</span>
+            <label htmlFor="other" className="check-box"></label>
+            <span>Other</span>
           </div>
         </div>
       </div>

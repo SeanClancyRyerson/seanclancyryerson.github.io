@@ -208,5 +208,25 @@
                     "Double strain into chilled coupe"],
         "notes":"If possible use key limes",
         "image":"https://img.delicious.com.au/rj9SGmTq/del/2020/12/sidecar-143900-1.jpg"
+    },
+
+    {
+        "id":12,
+        "name":"Mint Julep",
+        "spirit":"whiskey",
+        "glassware":"Julep Cup",
+        "menu":"false",
+        "description":"The standard cocktail for those wearing funny hats and watching animals run",
+        "ingredients":["2 ounces bourbon",
+                    "1/2 ounce rich Demerara syrup",
+                    "6-8 mint leaves",
+                    "Garnish: mint sprig"],
+        "directions":["Fill shaker with all ingregients",
+                    "Add ice and shake ~15 seconds",
+                    "Fill Julep Cup half way with crushed ice",
+                    "Double strain into chilled coupe",
+                    "Top off with crushed ice"],
+        "notes":"The Mint Julep became the official drink of the Kentucky Derby in 1938",
+        "image":"https://assets.epicurious.com/photos/605b5500012ec8626c0458f4/4:3/w_3108,h_2331,c_limit/Editorial_01_MintJulep-v2-6x4.jpg"
     }
 ]
