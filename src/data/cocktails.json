@@ -228,5 +228,125 @@
                     "Top off with crushed ice"],
         "notes":"The Mint Julep became the official drink of the Kentucky Derby in 1938",
         "image":"https://assets.epicurious.com/photos/605b5500012ec8626c0458f4/4:3/w_3108,h_2331,c_limit/Editorial_01_MintJulep-v2-6x4.jpg"
+    },
+
+    {
+        "id":13,
+        "name":"Simple Syrup",
+        "spirit":"other",
+        "glassware":"n/a",
+        "menu":"false",
+        "description":"A 1:1 sugar syrup",
+        "ingredients":["1 cup sugar",
+                    "1 cup water"],
+        "directions":["Combine ingredients in a small suace pan",
+                    "Stir over heat just until completely disolved",
+                    "Allow to cool and add to container"],
+        "notes":"The simplest of syrups",
+        "image":"https://www.thespruceeats.com/thmb/aWX06OUI_zTUt_1cdh1DIxY1jVY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-simple-syrup-760330-4_preview-5b0edbc8303713003737ff09.jpeg"
+    },
+
+    {
+        "id":14,
+        "name":"Semi-Rich Simple Syrup",
+        "spirit":"other",
+        "glassware":"n/a",
+        "menu":"false",
+        "description":"A 1.5:1 sugar syrup",
+        "ingredients":["1.5 cups sugar",
+                    "1 cup water"],
+        "directions":["Combine ingredients in a small suace pan",
+                    "Stir over heat just until completely disolved",
+                    "Allow to cool and add to container"],
+        "notes":"The semi-simplest of syrups",
+        "image":"https://www.winemag.com/wp-content/uploads/2022/04/Simple_Syrup_GettyImages-1358134921_1920x1280.jpg"
+    },
+
+    {
+        "id":15,
+        "name":"Rich Simple Syrup",
+        "spirit":"other",
+        "glassware":"n/a",
+        "menu":"false",
+        "description":"A 2:1 sugar syrup",
+        "ingredients":["2 cups sugar",
+                    "1 cup water"],
+        "directions":["Combine ingredients in a small suace pan",
+                    "Stir over heat just until completely disolved",
+                    "Allow to cool and add to container"],
+        "notes":"The richest of syrups",
+        "image":"https://cocktailsandbars.com/wp-content/uploads/2020/11/rich-simple-syrup-cocktailsandbars-O20201110_51.jpg"
+    },
+
+    {
+        "id":16,
+        "name":"Rich Demerara Syrup",
+        "spirit":"other",
+        "glassware":"n/a",
+        "menu":"false",
+        "description":"A 2:1 Demerara sugar syrup",
+        "ingredients":["2 cups Demerara sugar",
+                    "1 cup water"],
+        "directions":["Combine ingredients in a small suace pan",
+                    "Stir over heat just until completely disolved",
+                    "Allow to cool and add to container"],
+        "notes":"The Demerarest of syrups",
+        "image":"https://www.redpathsugar.com/sites/redpathsugar_com/files/styles/m/public/2023-03/Sustainable_Simple_Syrups-600x400.jpg.webp?itok=6fIkRGIQ"
+    },
+
+    {
+        "id":16,
+        "name":"Honey Syrup",
+        "spirit":"other",
+        "glassware":"n/a",
+        "menu":"false",
+        "description":"A 2:1 Honey syrup",
+        "ingredients":["2 cups Honey",
+                    "1 cup water"],
+        "directions":["Combine ingredients in a small suace pan",
+                    "Stir over heat just until completely disolved",
+                    "Allow to cool and add to container"],
+        "notes":"The honiest of syrups",
+        "image":"https://cdn.shopify.com/s/files/1/0019/5198/9825/files/Honey-Cinnamon-Simple-Syrup.jpg?v=1607982573"
+    },
+
+    {
+        "id":16,
+        "name":"Grenadine Syrup",
+        "spirit":"other",
+        "glassware":"n/a",
+        "menu":"false",
+        "description":"A homemade grenadine syrup",
+        "ingredients":["3 cups sugar",
+                    "2 cups pomegranate juice",
+                    "1 tsp pomegranate juice",
+                    "1/2 tsp rose water"],
+        "directions":["Combine ingredients in a medium suace pan",
+                    "Stir over heat just until completely disolved",
+                    "Allow to cool and add to container",
+                    "Add rose water and stir"],
+        "notes":"Try this instead of \"Rose's\" bright red hangover in a bottle",
+        "image":"https://www.thespruceeats.com/thmb/XKlyEkF5LE_Uk99QivE0lnoz2R0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-your-own-grenadine-760291-step-07-bf76a69e5b374726877435641bc1f77c.jpg"
+    },
+
+    {
+        "id":16,
+        "name":"Orgeat Syrup",
+        "spirit":"other",
+        "glassware":"n/a",
+        "menu":"false",
+        "description":"A homemade almond syrup",
+        "ingredients":["3 cups sugar",
+                    "2 cups unsweetened almond milk",
+                    "1 tsp orange blossom water",
+                    "1/2 tsp rose water",
+                    "1/2 tsp almond extract"],
+        "directions":["Combine sugar and almond milk in a medium suace pan",
+                    "Stir over heat just until completely disolved",
+                    "Allow to cool and add to container",
+                    "Add orange blossom water, rose water, and almond extract",
+                    "Stir"],
+        "notes":"Great in a multitude of tiki drinks",
+        "image":"https://resources.stuff.co.nz/content/dam/images/1/y/7/l/s/h/image.related.StuffLandscapeThreeByTwo.1464x976.1y7hv7.png/1575412377365.jpg"
     }
 ]
