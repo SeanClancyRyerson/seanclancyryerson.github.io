@@ -1,4 +1,4 @@
-import React, { useState, Component } from "react";
+import React, { useState } from "react";
 import Icon from "@mdi/react";
 import { mdiMagnify } from "@mdi/js";
 import "./App.css";
@@ -59,14 +59,14 @@ function App() {
   const filteredDrinks = drinks.filter((drink) => {
     return (
       drink.name.toLowerCase().includes(searchValue.toLowerCase()) &&
-      ((spiritBrandy && drink.spirit == "brandy") ||
-        (spiritGin && drink.spirit == "gin") ||
-        (spiritMezcal && drink.spirit == "mezcal") ||
-        (spiritRum && drink.spirit == "rum") ||
-        (spiritTequila && drink.spirit == "tequila") ||
-        (spiritVodka && drink.spirit == "vodka") ||
-        (spiritWhiskey && drink.spirit == "whiskey") ||
-        (spiritOther && drink.spirit == "other"))
+      ((spiritBrandy && drink.spirit === "brandy") ||
+        (spiritGin && drink.spirit === "gin") ||
+        (spiritMezcal && drink.spirit === "mezcal") ||
+        (spiritRum && drink.spirit === "rum") ||
+        (spiritTequila && drink.spirit === "tequila") ||
+        (spiritVodka && drink.spirit === "vodka") ||
+        (spiritWhiskey && drink.spirit === "whiskey") ||
+        (spiritOther && drink.spirit === "other"))
     );
   });
 
@@ -89,7 +89,7 @@ function App() {
             </button>
           </div>
         </div>
-        <img className="logo-icon" src="./logo512.png" />
+        <img className="logo-icon" src="./logo512.png" alt="logo icon" />
       </div>
       <div className="filter-king">
         <div className="filter-section">
